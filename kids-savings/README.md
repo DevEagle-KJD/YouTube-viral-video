@@ -34,14 +34,14 @@ $81.25, Samuel has 16 totaling $49.25, and the combined total is $130.50.
 Tap a cell, type the formula exactly as shown, then tap ✓.
 
 **Avelyn sheet**
-1. Cell **C2** (Balance column, first row): `=SUM(B$2:B2)`
-2. Copy **C2**, select **C3** down to **C17**, and paste. **C17** should show **$81.25**.
+1. Cell **C2** (Balance column, first row): `=B2`
+2. Cell **C3**: `=C2+B3`. Copy **C3**, select **C4** down to **C17**, and paste. **C17** should show **$81.25**.
 3. Big number cell next to *Current Savings*: `=SUM(Avelyn Transactions::B)` → **$81.25**
 
 **Samuel sheet**
 
-4. Cell **D2**: `=SUM(B$2:B2)`
-5. Copy **D2**, select **D3** down to **D17**, and paste. **D17** should show **$49.25**.
+4. Cell **D2**: `=B2`
+5. Cell **D3**: `=D2+B3`. Copy **D3**, select **D4** down to **D17**, and paste. **D17** should show **$49.25**.
 6. Big number cell next to *Current Savings*: `=SUM(Samuel Transactions::B)` → **$49.25**
 
 **Overview sheet**
